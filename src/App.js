@@ -64,7 +64,7 @@ class App extends Component {
             <DisplayNotes notes={notes} deleteNote={this.deleteNote} />
           </Route>
           <Route path="/add">
-            <UpsertNote addNote={this.addNote} />
+            <UpsertNote upsertNote={this.addNote} />
           </Route>
           <Route path="/edit">
             <UpsertNote upsertNote={this.editNote} />
