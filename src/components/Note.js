@@ -45,7 +45,6 @@ class Note extends Component {
               </Button>
             </Link>
           </ListItemIcon>
-
           <ListItemIcon>
             <Button onClick={() => deleteNote(note)}>
               <Delete />

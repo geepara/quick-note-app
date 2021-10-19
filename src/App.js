@@ -42,7 +42,12 @@ class App extends Component {
   addNote = (note) => {
     this.setState((state) => {
       return {
-        notes: [...state.notes, Object.assign(note, { id: uuidv4() })],
+        notes: [
+          ...state.notes,
+          Object.assign(note, {
+            id: uuidv4(),
+          }),
+        ],
       };
     });
   };

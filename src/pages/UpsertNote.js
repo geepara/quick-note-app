@@ -58,7 +58,6 @@ class UpsertNote extends Component {
   };
 
   render() {
-    console.log(this.props);
     return (
       <form style={styles.form}>
         <Paper elevation={3} style={styles.paper}>

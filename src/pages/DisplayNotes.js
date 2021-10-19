@@ -2,6 +2,7 @@ import { List, Fab, withStyles } from "@material-ui/core";
 import { Add } from "@material-ui/icons";
 import Note from "../components/Note";
 import { Link } from "react-router-dom";
+import Search from "../components/Search";
 
 const styles = {
   fab: {
