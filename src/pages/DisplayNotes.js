@@ -39,9 +39,10 @@ class DisplayNotes extends Component {
     const { notes, deleteNote, classes } = this.props;
     return (
       <>
-        <Search>
-          query={this.state.query}; updateQuery={this.updateQuery};
-        </Search>
+        <Search
+          query={this.state.query}
+          updateQuery={this.updateQuery}
+        ></Search>
         <List>
           {notes.map((note, index) => {
             return <Note note={note} key={index} deleteNote={deleteNote} />;
