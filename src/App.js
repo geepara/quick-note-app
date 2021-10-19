@@ -50,7 +50,7 @@ class App extends Component {
       return {
         notes: this.state.notes.filter((n) => n.id !== note.id),
       };
-    });
+    }, this.saveNotes);
   };
 
   render() {
